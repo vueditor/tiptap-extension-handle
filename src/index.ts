@@ -25,11 +25,11 @@ export const handle = Extension.create<Partial<HandleOptions>>({
     }
 
     const handleElement = document.createElement('div')
-    handleElement.setAttribute('id', 'vueditor-handle')
+    handleElement.setAttribute('id', this.options.handleId!)
     handleElement.setAttribute('date-vueditor', 'true')
 
     const handleBarElement = document.createElement('div')
-    handleBarElement.setAttribute('id', 'vueditor-handle-bar')
+    handleBarElement.setAttribute('id', this.options.handleBarId!)
     handleBarElement.classList.add('icon-park-outline--drag')
     handleBarElement.setAttribute('draggable', 'true')
 
