@@ -38,6 +38,11 @@ export const handle = Extension.create<Partial<HandleOptions>>({
     document.body.appendChild(handleElement)
   },
   onDestroy() {
+    // disable in development, for StrictMode in React dev
+    if (!import.meta.env.PROD) {
+      return
+    }
+
     const handleElement = document.getElementById(this.options.handleId!)
 
     if (handleElement?.getAttribute('date-vueditor') === 'true') {
