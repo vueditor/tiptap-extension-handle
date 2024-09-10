@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@tsconfig/node-lts/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "lib": ["DOM", "ESNext"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
