@@ -1,18 +1,18 @@
 {
-  "name": "typescript-starter",
+  "name": "@vueditor/tiptap-extension-handle",
   "type": "module",
   "version": "0.0.0",
-  "description": "A typescript project startup template",
+  "description": "A tiptap extension to support drag handle",
   "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
   "license": "MIT",
-  "homepage": "https://github.com/liting-yes/typescript-starter#readme",
+  "homepage": "https://github.com/vueditor/tiptap-extension-handle#readme",
   "bugs": {
-    "url": "https://github.com/liting-yes/typescript-starter/issues"
+    "url": "https://github.com/vueditor/tiptap-extension-handle/issues"
   },
   "keywords": [
-    "typescript",
-    "template",
-    "starter"
+    "tiptap",
+    "handle",
+    "drag"
   ],
   "exports": {
     ".": {
