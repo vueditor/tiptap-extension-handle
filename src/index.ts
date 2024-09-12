@@ -34,7 +34,7 @@ export const handle = Extension.create<Partial<HandleOptions>>({
     handleBarElement.setAttribute('draggable', 'true')
 
     handleElement.appendChild(handleBarElement)
-    createStyleTag(getStyle(this.options.handleId!, this.options.handleBarId!), undefined, 'vueditor-handle')
+    createStyleTag(getStyle(this.options.handleId!, this.options.handleBarId!), undefined, this.options.handleId)
     document.body.appendChild(handleElement)
   },
   onDestroy() {
