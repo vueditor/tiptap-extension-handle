@@ -26,8 +26,8 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "files": [
-    "dist",
-    "public"
+    "./demo.png",
+    "dist"
   ],
   "scripts": {
     "dev": "unbuild --stub",

@@ -32,4 +32,4 @@ const editor = new Editor({
 > [!TIP]
 > For more detailed usage，see the [examples](./examples/) directory or more comprehensive usage: [rich text editor](https://github.com/vueditor/rich-text-editor.git).
 
-![demo](./public/demo.png)
+![demo](./demo.png)

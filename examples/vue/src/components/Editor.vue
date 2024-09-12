@@ -4,7 +4,7 @@ import StarterKit from '@tiptap/starter-kit'
 import { handle } from '../../../..'
 
 const editor = useEditor({
-  content: '<p>I’m running Tiptap with Vue.js. 🎉</p>',
+  content: '<p>@vueditor/tiptap-extension-handle</p>',
   extensions: [
     StarterKit,
     handle
