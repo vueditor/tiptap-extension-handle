@@ -10,9 +10,7 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "noImplicitThis": false
-  },
-  "exclude": [
-    "./eslint.config.js"
-  ]
+    "noImplicitThis": false,
+    "outDir": "./dist"
+  }
 }
