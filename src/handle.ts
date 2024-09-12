@@ -23,9 +23,9 @@ const onMousemoveDebounce = debounce((view: EditorView, e: MouseEvent) => {
     pos: null,
   }))
 }, 10)
-const onMouseleaveDebounce = debounce((view: EditorView, e: MouseEvent) => {
+const onMouseleaveDebounce = debounce((view: EditorView, e: MouseEvent, options: HandlePluginOptions) => {
   const toDom = e.relatedTarget as HTMLElement
-  const handleDom = document.getElementById('vueditor-handle')
+  const handleDom = document.getElementById(options.handleId)
   if (handleDom?.isEqualNode(toDom) || handleDom?.contains(toDom)) {
     return
   }
@@ -199,7 +199,7 @@ export function handlePlugin(options: HandlePluginOptions) {
           onMousemoveDebounce(view, e)
         },
         mouseleave(view, e) {
-          onMouseleaveDebounce(view, e)
+          onMouseleaveDebounce(view, e, options)
         },
       },
     },
