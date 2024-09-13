@@ -4,7 +4,7 @@
   "version": "0.1.0-beta.1",
   "private": false,
   "description": "A tiptap extension to support drag handle",
-  "author": "liting-yes <luz.liting@gmail.com> (https://liting.ink/)",
+  "author": "litingyes <luz.liting@gmail.com> (https://litingyes.top/)",
   "license": "MIT",
   "homepage": "https://github.com/vueditor/tiptap-extension-handle#readme",
   "bugs": {
