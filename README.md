@@ -18,6 +18,9 @@ npm install @vueditor/tiptap-extension-handle
 
 ## Basic usage
 
+> [!TIP]
+> For more detailed usage，see the [examples](./examples/) directory or more comprehensive usage: [rich text editor](https://github.com/vueditor/rich-text-editor.git).
+
 ```ts
 import { Editor } from '@tiptap/core'
 import { handle } from '@vueditor/tiptap-extension-handle'
@@ -26,10 +29,3 @@ const editor = new Editor({
   extension: [handle]
 })
 ```
-
-## Demo
-
-> [!TIP]
-> For more detailed usage，see the [examples](./examples/) directory or more comprehensive usage: [rich text editor](https://github.com/vueditor/rich-text-editor.git).
-
-![demo](./demo.png)
