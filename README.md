@@ -2,7 +2,7 @@
 
 ![GitHub License](https://img.shields.io/github/license/vueditor/tiptap-extension-handle?style=plastic) ![NPM Version](https://img.shields.io/npm/v/%40vueditor%2Ftiptap-extension-handle?style=plastic) ![NPM Downloads](https://img.shields.io/npm/dm/%40vueditor%2Ftiptap-extension-handle?style=plastic)  ![GitHub Repo stars](https://img.shields.io/github/stars/vueditor/tiptap-extension-handle?style=plastic)
 
-A tiptap extension to support drag handle
+A tiptap extension to support drag handle, read the [docs](https://vueditor.litingyes.top/) to learn more.
 
 ## Installation
 
