@@ -29,7 +29,7 @@ importers:
         version: 19.4.1
       '@commitlint/cz-commitlint':
         specifier: ^19.4.0
-        version: 19.4.0(@types/node@22.5.4)(commitizen@4.3.0(@types/node@22.5.4)(typescript@5.3.3))(inquirer@10.2.2)(typescript@5.3.3)
+        version: 19.4.0(@types/node@22.5.4)(commitizen@4.3.1(@types/node@22.5.4)(typescript@5.3.3))(inquirer@10.2.2)(typescript@5.3.3)
       '@tsconfig/node-lts':
         specifier: ^20.1.3
         version: 20.1.3
@@ -41,7 +41,7 @@ importers:
         version: 9.2.1
       commitizen:
         specifier: ^4.3.0
-        version: 4.3.0(@types/node@22.5.4)(typescript@5.3.3)
+        version: 4.3.1(@types/node@22.5.4)(typescript@5.3.3)
       eslint:
         specifier: ^9.10.0
         version: 9.10.0(jiti@1.21.6)
@@ -248,10 +248,6 @@ packages:
 
   '@commitlint/lint@19.4.1':
     resolution: {integrity: sha512-Ws4YVAZ0jACTv6VThumITC1I5AG0UyXMGua3qcf55JmXIXm/ejfaVKykrqx7RyZOACKVAs8uDRIsEsi87JZ3+Q==}
-    engines: {node: '>=v18'}
-
-  '@commitlint/load@19.2.0':
-    resolution: {integrity: sha512-XvxxLJTKqZojCxaBQ7u92qQLFMMZc4+p9qrIq/9kJDy8DOrEa7P1yx7Tjdc2u2JxIalqT4KOGraVgCE7eCYJyQ==}
     engines: {node: '>=v18'}
 
   '@commitlint/load@19.4.0':
@@ -1134,10 +1130,6 @@ packages:
     resolution: {integrity: sha512-aCj4O5wKyszjMmDT4tZj93kxyydN/K5zPWSCe6/0AV/AA1pqe5ZBIw0a2ZfPQV7lL5/yb5HsUreJ6UFAF1tEQw==}
     engines: {node: '>=18'}
 
-  cli-spinners@2.9.0:
-    resolution: {integrity: sha512-4/aL9X3Wh0yiMQlE+eeRhWP6vclO3QRtw1JHKIT0FFUs5FjpFmESqtMvYZ0+lbzBw900b95mS0hohy+qn2VK/g==}
-    engines: {node: '>=6'}
-
   cli-spinners@2.9.2:
     resolution: {integrity: sha512-ywqV+5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg==}
     engines: {node: '>=6'}
@@ -1193,8 +1185,8 @@ packages:
     resolution: {integrity: sha512-buhp5kePrmda3vhc5B9t7pUQXAb2Tnd0qgpkIhPhkHXxJpiPJ11H0ZEU0oBpJ2QztSbzG/ZxMj/CHsYJqRHmyg==}
     engines: {node: '>= 12.0.0'}
 
-  commitizen@4.3.0:
-    resolution: {integrity: sha512-H0iNtClNEhT0fotHvGV3E9tDejDeS04sN1veIebsKYGMuGscFaswRoYJKmT3eW85eIJAs0F28bG2+a/9wCOfPw==}
+  commitizen@4.3.1:
+    resolution: {integrity: sha512-gwAPAVTy/j5YcOOebcCRIijn+mSjWJC+IYKivTu6aG8Ei/scoXgfsMRnuAk6b0GRste2J4NGxVdMN3ZpfNaVaw==}
     engines: {node: '>= 12'}
     hasBin: true
 
@@ -3559,13 +3551,13 @@ snapshots:
       '@commitlint/types': 19.0.3
       ajv: 8.12.0
 
-  '@commitlint/cz-commitlint@19.4.0(@types/node@22.5.4)(commitizen@4.3.0(@types/node@22.5.4)(typescript@5.3.3))(inquirer@10.2.2)(typescript@5.3.3)':
+  '@commitlint/cz-commitlint@19.4.0(@types/node@22.5.4)(commitizen@4.3.1(@types/node@22.5.4)(typescript@5.3.3))(inquirer@10.2.2)(typescript@5.3.3)':
     dependencies:
       '@commitlint/ensure': 19.0.3
       '@commitlint/load': 19.4.0(@types/node@22.5.4)(typescript@5.3.3)
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
-      commitizen: 4.3.0(@types/node@22.5.4)(typescript@5.3.3)
+      commitizen: 4.3.1(@types/node@22.5.4)(typescript@5.3.3)
       inquirer: 10.2.2
       lodash.isplainobject: 4.0.6
       word-wrap: 1.2.5
@@ -3600,23 +3592,6 @@ snapshots:
       '@commitlint/parse': 19.0.3
       '@commitlint/rules': 19.4.1
       '@commitlint/types': 19.0.3
-
-  '@commitlint/load@19.2.0(@types/node@22.5.4)(typescript@5.3.3)':
-    dependencies:
-      '@commitlint/config-validator': 19.0.3
-      '@commitlint/execute-rule': 19.0.0
-      '@commitlint/resolve-extends': 19.1.0
-      '@commitlint/types': 19.0.3
-      chalk: 5.3.0
-      cosmiconfig: 9.0.0(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.5.4)(cosmiconfig@9.0.0(typescript@5.3.3))(typescript@5.3.3)
-      lodash.isplainobject: 4.0.6
-      lodash.merge: 4.6.2
-      lodash.uniq: 4.5.0
-    transitivePeerDependencies:
-      - '@types/node'
-      - typescript
-    optional: true
 
   '@commitlint/load@19.4.0(@types/node@22.5.4)(typescript@5.3.3)':
     dependencies:
@@ -4493,8 +4468,6 @@ snapshots:
     dependencies:
       restore-cursor: 5.1.0
 
-  cli-spinners@2.9.0: {}
-
   cli-spinners@2.9.2: {}
 
   cli-truncate@4.0.0:
@@ -4536,7 +4509,7 @@ snapshots:
 
   comment-parser@1.4.1: {}
 
-  commitizen@4.3.0(@types/node@22.5.4)(typescript@5.3.3):
+  commitizen@4.3.1(@types/node@22.5.4)(typescript@5.3.3):
     dependencies:
       cachedir: 2.3.0
       cz-conventional-changelog: 3.3.0(@types/node@22.5.4)(typescript@5.3.3)
@@ -4693,13 +4666,13 @@ snapshots:
   cz-conventional-changelog@3.3.0(@types/node@22.5.4)(typescript@5.3.3):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.0(@types/node@22.5.4)(typescript@5.3.3)
+      commitizen: 4.3.1(@types/node@22.5.4)(typescript@5.3.3)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.2.0(@types/node@22.5.4)(typescript@5.3.3)
+      '@commitlint/load': 19.4.0(@types/node@22.5.4)(typescript@5.3.3)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
@@ -5217,7 +5190,7 @@ snapshots:
     dependencies:
       detect-file: 1.0.0
       is-glob: 4.0.3
-      micromatch: 4.0.5
+      micromatch: 4.0.8
       resolve-dir: 1.0.1
 
   flat-cache@4.0.1:
@@ -6115,7 +6088,7 @@ snapshots:
       bl: 4.1.0
       chalk: 4.1.2
       cli-cursor: 3.1.0
-      cli-spinners: 2.9.0
+      cli-spinners: 2.9.2
       is-interactive: 1.0.0
       is-unicode-supported: 0.1.0
       log-symbols: 4.1.0
